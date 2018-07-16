@@ -1,0 +1,25 @@
+{
+  "name": "emotional-arc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chart.js": "^2.7.27",
+    "chart.js": "^2.7.2",
+    "kuromoji": "^0.1.2",
+    "negaposi-analyzer-ja": "^1.0.1",
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.2",
+    "budo": "^11.3.2",
+    "parsel": "^0.3.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.9.2"
+  }
+}

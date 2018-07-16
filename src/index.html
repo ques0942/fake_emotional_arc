@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>エモーショナルアークもどき</title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>エモーショナルアークもどき</h1>
+        <p>
+            テキストエリアに入力されたテキストの各行について極性分析を行いグラフ化します。
+            単語ベースで解析するライブラリを単純に適用しただけなので精度はそこまで良くないです。
+            あくまでお遊びということで。
+        </p>
+        <textarea id="target" width="1000px"></textarea>
+        <button id="analyzeButton">解析</button>
+        <canvas id="chart" width="1000px" height="400px"></canvas>
+        <table id="results"></table>
+        <script src="index.ts"></script>
+    </body>
+</html>
